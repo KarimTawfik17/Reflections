@@ -1,0 +1,11 @@
+git rm --cashed [-r . || 'file_name'] => to unstage file or folder
+git reset => to unstage file or folder
+git reset --hard => reset working directory to the latest commit
+git diff => difference between working directory and staging area
+git diff --staged => difference between staging area and latest commit
+git log --stat --graph --oneline ['branch name' 'branch name'] -n 'number of commits'
+git checkout -b 'new branch name' => creates new branch and checkouts to it 
+  = git branch 'new branch name' + git checkout 'new branch name'
+git show 'commit_id' => shows the specified commit clearly
+git merge ['branch','branch',...] => merges the specified branches into the current 
+  checked out one
